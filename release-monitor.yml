@@ -10,3 +10,5 @@ release-process:
     branches: 
       - main
       - release/*
+    tags:
+      - v*
