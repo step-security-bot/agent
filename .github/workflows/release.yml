@@ -13,7 +13,7 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - uses: step-security/harden-runner@v1
+    - uses: step-security/harden-runner@2e205a28d0e1da00c5f53b161f4067b052c61f34
       with:
         allowed-endpoints: 
           api.github.com:443
